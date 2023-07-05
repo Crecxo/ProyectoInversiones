@@ -1,0 +1,39 @@
+.moreInfo_container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.firstInfo_container {
+    width: 80%;
+    text-align: center;
+}
+
+.firstInfo_container h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4vh;
+}
+
+.firstInfo_container p {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 3vh;
+}
+
+.examples_container {
+    width: 100%;
+    text-align: center;
+}
+
+.examples_container h3 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 3vh;
+}
+
+.examples_container p {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-size: 3vh;
+}

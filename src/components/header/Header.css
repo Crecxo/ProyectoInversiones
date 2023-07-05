@@ -1,0 +1,51 @@
+.header_container {
+    display: flex;
+    width: 100%;
+    border-bottom: 1.5px solid white;
+}
+
+.titulo_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo_container h1 {
+    padding-left: 3vh;
+    font-famiAly: 'bril Fatface', cursive;
+    font-size: 6vh;
+    width: 100%;
+    color: white;
+}
+
+.options_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2vh;
+    width: 100%;
+}
+
+.options-flex_container {
+    display: flex;
+    justify-content: center;
+}
+
+.options-flex_container li {
+    display: flex;
+    text-align: center;
+    padding: 2vh;
+    font-size: 2vh;
+    cursor: pointer;
+    border: 1px solid white;
+    margin: 1vh;
+    height: 2vh;
+    color: white;
+    transition: all .5s;
+}
+
+.options-flex_container li:hover {
+    background: white;
+    color: black;
+}
